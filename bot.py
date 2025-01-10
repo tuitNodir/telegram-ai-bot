@@ -30,8 +30,8 @@ async def ai_chat(update: Update, context):
 # /start komandasi uchun funksiya
 async def start_command(update: Update, context):
     await update.message.reply_text(
-        "Assalomu alaykum! Men sun'iy intellektga asoslangan Telegram botman. "
-        "Menga "salom" deb murojaat qilsangiz yoki boshqa savollaringiz bo'lsa, bemalol yozing!"
+        "Assalomu alaykum! Men suniy intellektga asoslangan Telegram botman. "
+        'Menga "salom" deb murojaat qilsangiz yoki boshqa savollaringiz bolsa, bemalol yozing!'
     )
 
 # Botni sozlash va boshlash
