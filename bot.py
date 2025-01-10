@@ -11,7 +11,7 @@ async def greet(update: Update, context):
     if "salom" in user_message:
         await update.message.reply_text("Salom! Qalaysiz?")
     else:
-        await update.message.reply_text("Meni "salom" deb chaqirishingiz mumkin.")
+        await update.message.reply_text('Meni "salom" deb chaqirishingiz mumkin.')
 
 # Sun'iy intellekt bilan muloqot qilish funksiyasi
 async def ai_chat(update: Update, context):
